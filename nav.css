@@ -4,11 +4,11 @@ ul{
 }
 .nav1{
     background-color:royalblue;
-    height: 48px;
-}
-.nav1 ul li{
-    position: relative;
-    top:10px;
+    height: 55px;
+    width: 1260px;
+    position: fixed;
+    margin: 0;
+    z-index: 1;
 }
 .nav1 ul li a{
     font-family: "Arial Unicode MS";
@@ -43,9 +43,13 @@ button {
     margin: -25px -55px;
     float: right;
 }
-
+.nav2 ul{
+    position:relative;
+    margin: -10px;
+}
 .nav2 ul li{
     float:left;        /*让li元素左浮动*/
+    margin: 55px;
 }
 .nav2 ul li a{
     width:auto;

@@ -42,7 +42,7 @@
 }
 .info_user_img:hover img{
     transform: scale(1);
-    transition: all 1s ease 0s;
+    transition: all 1.5s ease 0s;
     -webkit-transform: scale(1);
     -webkit-transform: all 1s ease 0s;
 }
